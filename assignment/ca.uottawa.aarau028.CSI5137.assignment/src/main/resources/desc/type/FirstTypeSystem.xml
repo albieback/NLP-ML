@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+                
+  
+  
+  
+  
+  
+  <name>FirstTypeSystem</name>
+                
+  
+  
+  
+  
+  
+  <description/>
+                
+  
+  
+  
+  
+  
+  <version>1.0</version>
+                
+  
+  
+  
+  
+  
+  <vendor/>
+              
+  
+  
+  
+  
+  
+  <types>
+                            
+    
+    
+    
+    
+    
+    <typeDescription>
+                                          
+      
+      
+      
+      
+      
+      <name>ca.uottawa.aarau028.type.It</name>
+                                          
+      
+      
+      
+      
+      
+      <description>F18</description>
+                                          
+      
+      
+      
+      
+      
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+                                          
+      
+      
+      
+      
+      
+      <features>
+                                                        
+        
+        
+        
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>itPosition</name>
+                                        
+          
+          
+          <description>The position of the it token in the sentence (F1).</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>sentenceLength</name>
+                                        
+          
+          
+          <description>F2</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>punctuationCount</name>
+                                        
+          
+          
+          <description>F3</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>precedingNPs</name>
+                                        
+          
+          
+          <description>F4</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>succedingNPs</name>
+                                        
+          
+          
+          <description>F5</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>immediatelyFollowsPP</name>
+                                        
+          
+          
+          <description>F6</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>neighborPOSTags</name>
+                                        
+          
+          
+          <description>F7</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>followedByIngVerb</name>
+                                        
+          
+          
+          <description>F8</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>followedByPreposition</name>
+                                        
+          
+          
+          <description>F9</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>adjectivesAfterCount</name>
+                                        
+          
+          
+          <description>F10</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>verbBefore</name>
+                                        
+          
+          
+          <description>F11</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>verbAfter</name>
+                                        
+          
+          
+          <description/>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>adjectivesAfter</name>
+                                        
+          
+          
+          <description>F13</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                                
+        
+        
+        <featureDescription>
+                                        
+          
+          
+          <name>nounPhraseWithAdjectiveAfter</name>
+                                        
+          
+          
+          <description>F14</description>
+                                        
+          
+          
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                                      
+        
+        
+        </featureDescription>
+                      
+        
+        <featureDescription>
+                              
+          
+          <name>tokensBeforeNextVerbInf</name>
+                              
+          
+          <description>F15</description>
+                              
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                            
+        
+        </featureDescription>
+                        
+        
+        <featureDescription>
+                              
+          
+          <name>tokensBetweenItAndPreposition</name>
+                              
+          
+          <description/>
+                              
+          
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                            
+        
+        </featureDescription>
+              
+        <featureDescription>
+                    
+          <name>itImmediatelyFollowedByAdjNounPhrase</name>
+                    
+          <description>F17</description>
+                    
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                  
+        </featureDescription>
+                
+        <featureDescription>
+                    
+          <name>dependencyToClosest</name>
+                    
+          <description/>
+                    
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+                  
+        </featureDescription>
+      </features>
+                                        
+    
+    
+    
+    
+    
+    </typeDescription>
+                      
+  
+  
+  
+  
+  </types>
+            
+
+
+
+
+
+</typeSystemDescription>
