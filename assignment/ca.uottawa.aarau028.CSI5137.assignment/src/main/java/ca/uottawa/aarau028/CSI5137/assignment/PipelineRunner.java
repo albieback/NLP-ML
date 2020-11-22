@@ -29,16 +29,16 @@ import ca.uottawa.aarau028.CSI5137.assignment.analyzer.VerbBeforeAndAfterChecker
 import de.tudarmstadt.ukp.dkpro.core.io.text.TextReader;
 import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpChunker;
 import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpPosTagger;
+import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpSegmenter;
 import de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordParser;
-import de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter;
 
 public class PipelineRunner {
 
 	public static void main(String[] args) throws UIMAException, IOException {
 		CollectionReaderDescription entrada = CollectionReaderFactory.createReaderDescription(TextReader.class,
-				TextReader.PARAM_SOURCE_LOCATION, "input/input-a2.csv", TextReader.PARAM_LANGUAGE, "en");
+				TextReader.PARAM_SOURCE_LOCATION, "input/document.txt", TextReader.PARAM_LANGUAGE, "en");
 		AnalysisEngineDescription segmenter = AnalysisEngineFactory
-				.createEngineDescription(BreakIteratorSegmenter.class);
+				.createEngineDescription(OpenNlpSegmenter.class);
 
 		AnalysisEngineDescription itDetector = AnalysisEngineFactory.createEngineDescription(ItDetector.class);
 
@@ -56,12 +56,12 @@ public class PipelineRunner {
 
 		AnalysisEngineDescription chunker = AnalysisEngineFactory.createEngineDescription(OpenNlpChunker.class);
 
-//		AnalysisEngineDescription writer = AnalysisEngineFactory.createEngineDescription(CASDumpWriter.class
+		AnalysisEngineDescription writer = AnalysisEngineFactory.createEngineDescription(CASDumpWriter.class
 //				,
 //				CASDumpWriter.PARAM_TYPE_PATTERNS, new String[] { "+|.*It" }
-//		);
+		);
 
-		AnalysisEngineDescription writer = AnalysisEngineFactory.createEngineDescription(FeatureMatrixWriter.class, FeatureMatrixWriter.PARAM_PATH, "output/");
+//		AnalysisEngineDescription writer = AnalysisEngineFactory.createEngineDescription(FeatureMatrixWriter.class, FeatureMatrixWriter.PARAM_PATH, "output/");
 
 		AnalysisEngineDescription immediatelyFollowsPP = AnalysisEngineFactory
 				.createEngineDescription(ItImmediatelyFollowingPPDetector.class);

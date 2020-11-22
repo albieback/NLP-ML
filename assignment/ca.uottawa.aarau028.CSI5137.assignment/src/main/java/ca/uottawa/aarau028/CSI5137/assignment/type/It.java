@@ -10,9 +10,9 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/** F18
- * Updated by JCasGen Mon Nov 09 11:39:49 BRT 2020
- * XML source: C:/Users/aarau028/eclipse-workspace-2019-03/ca.uottawa.aarau028.assignment2/src/main/resources/desc/type/FirstTypeSystem.xml
+/** 
+ * Updated by JCasGen Fri Nov 20 22:17:37 BRT 2020
+ * XML source: C:/Users/17141908897/git/NLP-ML/assignment/ca.uottawa.aarau028.CSI5137.assignment/src/main/resources/desc/type/FirstTypeSystem.xml
  * @generated */
 public class It extends Annotation {
   /** @generated
@@ -85,7 +85,7 @@ public class It extends Annotation {
    */
   public int getItPosition() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_itPosition == null)
-      jcasType.jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_itPosition);}
     
   /** setter for itPosition - sets The position of the it token in the sentence (F1). 
@@ -94,7 +94,7 @@ public class It extends Annotation {
    */
   public void setItPosition(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_itPosition == null)
-      jcasType.jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_itPosition, v);}    
    
     
@@ -107,7 +107,7 @@ public class It extends Annotation {
    */
   public int getSentenceLength() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_sentenceLength == null)
-      jcasType.jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_sentenceLength);}
     
   /** setter for sentenceLength - sets F2 
@@ -116,7 +116,7 @@ public class It extends Annotation {
    */
   public void setSentenceLength(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_sentenceLength == null)
-      jcasType.jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_sentenceLength, v);}    
    
     
@@ -129,7 +129,7 @@ public class It extends Annotation {
    */
   public int getPunctuationCount() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_punctuationCount == null)
-      jcasType.jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_punctuationCount);}
     
   /** setter for punctuationCount - sets F3 
@@ -138,7 +138,7 @@ public class It extends Annotation {
    */
   public void setPunctuationCount(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_punctuationCount == null)
-      jcasType.jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_punctuationCount, v);}    
    
     
@@ -151,7 +151,7 @@ public class It extends Annotation {
    */
   public int getPrecedingNPs() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_precedingNPs == null)
-      jcasType.jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_precedingNPs);}
     
   /** setter for precedingNPs - sets F4 
@@ -160,7 +160,7 @@ public class It extends Annotation {
    */
   public void setPrecedingNPs(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_precedingNPs == null)
-      jcasType.jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_precedingNPs, v);}    
    
     
@@ -173,7 +173,7 @@ public class It extends Annotation {
    */
   public int getSuccedingNPs() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_succedingNPs == null)
-      jcasType.jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_succedingNPs);}
     
   /** setter for succedingNPs - sets F5 
@@ -182,7 +182,7 @@ public class It extends Annotation {
    */
   public void setSuccedingNPs(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_succedingNPs == null)
-      jcasType.jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_succedingNPs, v);}    
    
     
@@ -195,7 +195,7 @@ public class It extends Annotation {
    */
   public boolean getImmediatelyFollowsPP() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_immediatelyFollowsPP == null)
-      jcasType.jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_immediatelyFollowsPP);}
     
   /** setter for immediatelyFollowsPP - sets F6 
@@ -204,7 +204,7 @@ public class It extends Annotation {
    */
   public void setImmediatelyFollowsPP(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_immediatelyFollowsPP == null)
-      jcasType.jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_immediatelyFollowsPP, v);}    
    
     
@@ -217,7 +217,7 @@ public class It extends Annotation {
    */
   public String getNeighborPOSTags() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_neighborPOSTags == null)
-      jcasType.jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getStringValue(addr, ((It_Type)jcasType).casFeatCode_neighborPOSTags);}
     
   /** setter for neighborPOSTags - sets F7 
@@ -226,7 +226,7 @@ public class It extends Annotation {
    */
   public void setNeighborPOSTags(String v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_neighborPOSTags == null)
-      jcasType.jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setStringValue(addr, ((It_Type)jcasType).casFeatCode_neighborPOSTags, v);}    
    
     
@@ -239,7 +239,7 @@ public class It extends Annotation {
    */
   public boolean getFollowedByIngVerb() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByIngVerb == null)
-      jcasType.jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByIngVerb);}
     
   /** setter for followedByIngVerb - sets F8 
@@ -248,7 +248,7 @@ public class It extends Annotation {
    */
   public void setFollowedByIngVerb(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByIngVerb == null)
-      jcasType.jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByIngVerb, v);}    
    
     
@@ -261,7 +261,7 @@ public class It extends Annotation {
    */
   public boolean getFollowedByPreposition() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByPreposition == null)
-      jcasType.jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByPreposition);}
     
   /** setter for followedByPreposition - sets F9 
@@ -270,7 +270,7 @@ public class It extends Annotation {
    */
   public void setFollowedByPreposition(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByPreposition == null)
-      jcasType.jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByPreposition, v);}    
    
     
@@ -283,7 +283,7 @@ public class It extends Annotation {
    */
   public int getAdjectivesAfterCount() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_adjectivesAfterCount == null)
-      jcasType.jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_adjectivesAfterCount);}
     
   /** setter for adjectivesAfterCount - sets F10 
@@ -292,7 +292,7 @@ public class It extends Annotation {
    */
   public void setAdjectivesAfterCount(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_adjectivesAfterCount == null)
-      jcasType.jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_adjectivesAfterCount, v);}    
    
     
@@ -305,7 +305,7 @@ public class It extends Annotation {
    */
   public boolean getVerbBefore() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_verbBefore == null)
-      jcasType.jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_verbBefore);}
     
   /** setter for verbBefore - sets F11 
@@ -314,7 +314,7 @@ public class It extends Annotation {
    */
   public void setVerbBefore(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_verbBefore == null)
-      jcasType.jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_verbBefore, v);}    
    
     
@@ -327,7 +327,7 @@ public class It extends Annotation {
    */
   public boolean getVerbAfter() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_verbAfter == null)
-      jcasType.jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_verbAfter);}
     
   /** setter for verbAfter - sets  
@@ -336,7 +336,7 @@ public class It extends Annotation {
    */
   public void setVerbAfter(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_verbAfter == null)
-      jcasType.jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_verbAfter, v);}    
    
     
@@ -349,7 +349,7 @@ public class It extends Annotation {
    */
   public boolean getAdjectivesAfter() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_adjectivesAfter == null)
-      jcasType.jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_adjectivesAfter);}
     
   /** setter for adjectivesAfter - sets F13 
@@ -358,7 +358,7 @@ public class It extends Annotation {
    */
   public void setAdjectivesAfter(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_adjectivesAfter == null)
-      jcasType.jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_adjectivesAfter, v);}    
    
     
@@ -371,7 +371,7 @@ public class It extends Annotation {
    */
   public boolean getNounPhraseWithAdjectiveAfter() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_nounPhraseWithAdjectiveAfter == null)
-      jcasType.jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_nounPhraseWithAdjectiveAfter);}
     
   /** setter for nounPhraseWithAdjectiveAfter - sets F14 
@@ -380,7 +380,7 @@ public class It extends Annotation {
    */
   public void setNounPhraseWithAdjectiveAfter(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_nounPhraseWithAdjectiveAfter == null)
-      jcasType.jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_nounPhraseWithAdjectiveAfter, v);}    
    
     
@@ -393,7 +393,7 @@ public class It extends Annotation {
    */
   public int getTokensBeforeNextVerbInf() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_tokensBeforeNextVerbInf == null)
-      jcasType.jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_tokensBeforeNextVerbInf);}
     
   /** setter for tokensBeforeNextVerbInf - sets F15 
@@ -402,7 +402,7 @@ public class It extends Annotation {
    */
   public void setTokensBeforeNextVerbInf(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_tokensBeforeNextVerbInf == null)
-      jcasType.jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_tokensBeforeNextVerbInf, v);}    
    
     
@@ -415,7 +415,7 @@ public class It extends Annotation {
    */
   public int getTokensBetweenItAndPreposition() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_tokensBetweenItAndPreposition == null)
-      jcasType.jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getIntValue(addr, ((It_Type)jcasType).casFeatCode_tokensBetweenItAndPreposition);}
     
   /** setter for tokensBetweenItAndPreposition - sets  
@@ -424,7 +424,7 @@ public class It extends Annotation {
    */
   public void setTokensBetweenItAndPreposition(int v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_tokensBetweenItAndPreposition == null)
-      jcasType.jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setIntValue(addr, ((It_Type)jcasType).casFeatCode_tokensBetweenItAndPreposition, v);}    
    
     
@@ -437,7 +437,7 @@ public class It extends Annotation {
    */
   public boolean getItImmediatelyFollowedByAdjNounPhrase() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_itImmediatelyFollowedByAdjNounPhrase == null)
-      jcasType.jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_itImmediatelyFollowedByAdjNounPhrase);}
     
   /** setter for itImmediatelyFollowedByAdjNounPhrase - sets F17 
@@ -446,7 +446,7 @@ public class It extends Annotation {
    */
   public void setItImmediatelyFollowedByAdjNounPhrase(boolean v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_itImmediatelyFollowedByAdjNounPhrase == null)
-      jcasType.jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_itImmediatelyFollowedByAdjNounPhrase, v);}    
    
     
@@ -459,7 +459,7 @@ public class It extends Annotation {
    */
   public String getDependencyToClosest() {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_dependencyToClosest == null)
-      jcasType.jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return jcasType.ll_cas.ll_getStringValue(addr, ((It_Type)jcasType).casFeatCode_dependencyToClosest);}
     
   /** setter for dependencyToClosest - sets  
@@ -468,7 +468,7 @@ public class It extends Annotation {
    */
   public void setDependencyToClosest(String v) {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_dependencyToClosest == null)
-      jcasType.jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.type.It");
+      jcasType.jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setStringValue(addr, ((It_Type)jcasType).casFeatCode_dependencyToClosest, v);}    
   }
 

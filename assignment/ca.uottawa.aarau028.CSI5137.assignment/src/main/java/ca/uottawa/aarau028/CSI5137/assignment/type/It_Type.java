@@ -10,8 +10,8 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/** F18
- * Updated by JCasGen Mon Nov 09 11:39:49 BRT 2020
+/** 
+ * Updated by JCasGen Fri Nov 20 22:17:37 BRT 2020
  * @generated */
 public class It_Type extends Annotation_Type {
   /** @generated */
@@ -20,7 +20,7 @@ public class It_Type extends Annotation_Type {
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("ca.uottawa.aarau028.type.It");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("ca.uottawa.aarau028.CSI5137.assignment.type.It");
  
   /** @generated */
   final Feature casFeat_itPosition;
@@ -32,7 +32,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getItPosition(int addr) {
         if (featOkTst && casFeat_itPosition == null)
-      jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_itPosition);
   }
   /** @generated
@@ -41,7 +41,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setItPosition(int addr, int v) {
         if (featOkTst && casFeat_itPosition == null)
-      jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("itPosition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_itPosition, v);}
     
   
@@ -56,7 +56,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getSentenceLength(int addr) {
         if (featOkTst && casFeat_sentenceLength == null)
-      jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_sentenceLength);
   }
   /** @generated
@@ -65,7 +65,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setSentenceLength(int addr, int v) {
         if (featOkTst && casFeat_sentenceLength == null)
-      jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("sentenceLength", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_sentenceLength, v);}
     
   
@@ -80,7 +80,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getPunctuationCount(int addr) {
         if (featOkTst && casFeat_punctuationCount == null)
-      jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_punctuationCount);
   }
   /** @generated
@@ -89,7 +89,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setPunctuationCount(int addr, int v) {
         if (featOkTst && casFeat_punctuationCount == null)
-      jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("punctuationCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_punctuationCount, v);}
     
   
@@ -104,7 +104,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getPrecedingNPs(int addr) {
         if (featOkTst && casFeat_precedingNPs == null)
-      jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_precedingNPs);
   }
   /** @generated
@@ -113,7 +113,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setPrecedingNPs(int addr, int v) {
         if (featOkTst && casFeat_precedingNPs == null)
-      jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("precedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_precedingNPs, v);}
     
   
@@ -128,7 +128,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getSuccedingNPs(int addr) {
         if (featOkTst && casFeat_succedingNPs == null)
-      jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_succedingNPs);
   }
   /** @generated
@@ -137,7 +137,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setSuccedingNPs(int addr, int v) {
         if (featOkTst && casFeat_succedingNPs == null)
-      jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("succedingNPs", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_succedingNPs, v);}
     
   
@@ -152,7 +152,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getImmediatelyFollowsPP(int addr) {
         if (featOkTst && casFeat_immediatelyFollowsPP == null)
-      jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_immediatelyFollowsPP);
   }
   /** @generated
@@ -161,7 +161,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setImmediatelyFollowsPP(int addr, boolean v) {
         if (featOkTst && casFeat_immediatelyFollowsPP == null)
-      jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("immediatelyFollowsPP", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_immediatelyFollowsPP, v);}
     
   
@@ -176,7 +176,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public String getNeighborPOSTags(int addr) {
         if (featOkTst && casFeat_neighborPOSTags == null)
-      jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getStringValue(addr, casFeatCode_neighborPOSTags);
   }
   /** @generated
@@ -185,7 +185,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setNeighborPOSTags(int addr, String v) {
         if (featOkTst && casFeat_neighborPOSTags == null)
-      jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("neighborPOSTags", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setStringValue(addr, casFeatCode_neighborPOSTags, v);}
     
   
@@ -200,7 +200,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getFollowedByIngVerb(int addr) {
         if (featOkTst && casFeat_followedByIngVerb == null)
-      jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_followedByIngVerb);
   }
   /** @generated
@@ -209,7 +209,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setFollowedByIngVerb(int addr, boolean v) {
         if (featOkTst && casFeat_followedByIngVerb == null)
-      jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("followedByIngVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_followedByIngVerb, v);}
     
   
@@ -224,7 +224,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getFollowedByPreposition(int addr) {
         if (featOkTst && casFeat_followedByPreposition == null)
-      jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_followedByPreposition);
   }
   /** @generated
@@ -233,7 +233,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setFollowedByPreposition(int addr, boolean v) {
         if (featOkTst && casFeat_followedByPreposition == null)
-      jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("followedByPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_followedByPreposition, v);}
     
   
@@ -248,7 +248,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getAdjectivesAfterCount(int addr) {
         if (featOkTst && casFeat_adjectivesAfterCount == null)
-      jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_adjectivesAfterCount);
   }
   /** @generated
@@ -257,7 +257,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setAdjectivesAfterCount(int addr, int v) {
         if (featOkTst && casFeat_adjectivesAfterCount == null)
-      jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("adjectivesAfterCount", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_adjectivesAfterCount, v);}
     
   
@@ -272,7 +272,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getVerbBefore(int addr) {
         if (featOkTst && casFeat_verbBefore == null)
-      jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_verbBefore);
   }
   /** @generated
@@ -281,7 +281,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setVerbBefore(int addr, boolean v) {
         if (featOkTst && casFeat_verbBefore == null)
-      jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("verbBefore", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_verbBefore, v);}
     
   
@@ -296,7 +296,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getVerbAfter(int addr) {
         if (featOkTst && casFeat_verbAfter == null)
-      jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_verbAfter);
   }
   /** @generated
@@ -305,7 +305,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setVerbAfter(int addr, boolean v) {
         if (featOkTst && casFeat_verbAfter == null)
-      jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("verbAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_verbAfter, v);}
     
   
@@ -320,7 +320,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getAdjectivesAfter(int addr) {
         if (featOkTst && casFeat_adjectivesAfter == null)
-      jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_adjectivesAfter);
   }
   /** @generated
@@ -329,7 +329,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setAdjectivesAfter(int addr, boolean v) {
         if (featOkTst && casFeat_adjectivesAfter == null)
-      jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("adjectivesAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_adjectivesAfter, v);}
     
   
@@ -344,7 +344,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getNounPhraseWithAdjectiveAfter(int addr) {
         if (featOkTst && casFeat_nounPhraseWithAdjectiveAfter == null)
-      jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_nounPhraseWithAdjectiveAfter);
   }
   /** @generated
@@ -353,7 +353,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setNounPhraseWithAdjectiveAfter(int addr, boolean v) {
         if (featOkTst && casFeat_nounPhraseWithAdjectiveAfter == null)
-      jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("nounPhraseWithAdjectiveAfter", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_nounPhraseWithAdjectiveAfter, v);}
     
   
@@ -368,7 +368,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getTokensBeforeNextVerbInf(int addr) {
         if (featOkTst && casFeat_tokensBeforeNextVerbInf == null)
-      jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_tokensBeforeNextVerbInf);
   }
   /** @generated
@@ -377,7 +377,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setTokensBeforeNextVerbInf(int addr, int v) {
         if (featOkTst && casFeat_tokensBeforeNextVerbInf == null)
-      jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("tokensBeforeNextVerbInf", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_tokensBeforeNextVerbInf, v);}
     
   
@@ -392,7 +392,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public int getTokensBetweenItAndPreposition(int addr) {
         if (featOkTst && casFeat_tokensBetweenItAndPreposition == null)
-      jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getIntValue(addr, casFeatCode_tokensBetweenItAndPreposition);
   }
   /** @generated
@@ -401,7 +401,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setTokensBetweenItAndPreposition(int addr, int v) {
         if (featOkTst && casFeat_tokensBetweenItAndPreposition == null)
-      jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("tokensBetweenItAndPreposition", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setIntValue(addr, casFeatCode_tokensBetweenItAndPreposition, v);}
     
   
@@ -416,7 +416,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public boolean getItImmediatelyFollowedByAdjNounPhrase(int addr) {
         if (featOkTst && casFeat_itImmediatelyFollowedByAdjNounPhrase == null)
-      jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_itImmediatelyFollowedByAdjNounPhrase);
   }
   /** @generated
@@ -425,7 +425,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setItImmediatelyFollowedByAdjNounPhrase(int addr, boolean v) {
         if (featOkTst && casFeat_itImmediatelyFollowedByAdjNounPhrase == null)
-      jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("itImmediatelyFollowedByAdjNounPhrase", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setBooleanValue(addr, casFeatCode_itImmediatelyFollowedByAdjNounPhrase, v);}
     
   
@@ -440,7 +440,7 @@ public class It_Type extends Annotation_Type {
    */ 
   public String getDependencyToClosest(int addr) {
         if (featOkTst && casFeat_dependencyToClosest == null)
-      jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     return ll_cas.ll_getStringValue(addr, casFeatCode_dependencyToClosest);
   }
   /** @generated
@@ -449,7 +449,7 @@ public class It_Type extends Annotation_Type {
    */    
   public void setDependencyToClosest(int addr, String v) {
         if (featOkTst && casFeat_dependencyToClosest == null)
-      jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.type.It");
+      jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     ll_cas.ll_setStringValue(addr, casFeatCode_dependencyToClosest, v);}
     
   
