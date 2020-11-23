@@ -1,0 +1,128 @@
+I know it's not possible at the moment specially with all the hardware limitations but if you guys really are working on a surface phone bringing visual studio to it will be so huge.
+The application will exit AWFUL BUGGGG!!!
+Having an API allowing getting the color of the pixels under a pointer (eventually throttled/async and only when having pointer capture on) would increase the expressiveness of the creation tools in UWP applications.
+I am manually having to keep a list of these when it would be easily managed in the Dashboard if the status properly reflected this.
+I did a research on AudioFrameOutputNode It is strange that it often generate AudioFrame without any audio data the AudioFrame's Duration property is 0 miliseconds but the RelativeTime property is not.
+I like the ease of the app and recommend this app to all.
+I have largely ignored this is the past because it was minimal but someone is finding good success with it so they're hammering everyone.
+I've started to continually download review reports to just have a record of them
+I've had over fifty 4+ star reviews simply disappear never to be seen again.
+I see the point that insiders shouldn't bring down the ratings of the app if the OS is to blame.... but with so few people rating anyway and most people being on the fast insider ring it makes it extremely hard to get reviews.
+I have bound the IsPaneOpen of my SplitView to a property in my ViewModel.
+We shouln't have to relly on workaround like this one: https://www.pedrolamas.com/2015/11/02/cultureinfo-changes-in-uwp/
+I found that PhoneTriggerType enum includes useful triggers except the trigger when a call is received.
+It makes UWP apps look worse than desktop apps on standard DPI screens.
+I use Windows SAPI quite intensively for an application I have built and many Grammars are easily much bigger than the limits imposed by Cortana.
+Unfortunately I am not going to know all uri's the cookies are in without tracking every single domain visited (which is what I currently have to do).
+I do this so I can clear all Cookies.
+I guess it is result of extremely short quantum size (10ms; even switching between threads could take more time) and too low buffer length (2 quants) but it could be just some synchronization issue.
+I have an app where I use a custom title bar by extending my view into the title bar area:
+Then I also use code like this to allow a custom element to support dragging of the window:
+I confirmed that in pre-Anniversary Update these properties would return values like 32 for Height and 188 for SystemOverlayRightInset.
+I am working on Location based appppppps.
+I am using MapIcon to show user current location.
+Yes I know if we're C++ developers we can use the traditional Winsock API setsockopt() can do what we need but that will tied us to the old self-manage threads model which is not pleasing.
+I have an app in the store to make a live tile clock.
+I checked with multiple clock tile apps in the store and they all have this same fundamental issue.
+I was able to run the converter on build 14316 and 14352.
+However on build 14383 I got this error pufff!!
+We've got the clean un/install but no app-level resets?
+Currently I have to do a request to the server to check the certificates extract the public Key and verify it's ok.
+Currently I cannot access the handshake of the HttpClient where the SSL pinning verification should be done.
+Currently we customizing titlebar background and foreground but border is not.
+Sometimes I only have a StorageFile and I would like to launch the Explorer to display that file.
+To do so I need access to the file's StorageFolder and pass that to LaunchFolderAsync.
+I am using the Raspberry Pi with the NXP NFC Modul 7120.
+Actually initially I constructed the msi by placing the folder in the Documents folder but the Centennial does not install it there but in the VFS\....
+It will be awful for the user to find these kind of folders too.
+I am adding some screenshots too.
+I can use Fiddler on my desktop to view my network traffic.
+I run the converter on powershell but it can not finish the work though it doesn't report any problems.
+We have several Instruments that implement an API via SOAP on Linux that presents as a WCF service.
+Unfortunately we can't create UWP apps because there is no support for the custom WCF binding - which is needed - to talk to these instruments.
+I'd loooove to do it!
+I ran it multiple times yout to find the reason but it crashed with this Errors every time when it got to a '.rels' - File:
+I understand that the unnecessary JavaScript made WinRT insanely complex to design... but please...
+So i did some research I decompile one of those app and found it used MediaPlayer class for playing audio filethen I wrote a demo and the same problem did occur.
+But I don't have enough evidence to prove that.
+Thank you veryyyyy much.
+I currently use the CodedUI testing framework as it allows me to logon to IE as a different user/password.
+I have a Style targeting a FontIcon control with a Setter for the FontFamily.
+I belongs to India and want to register my self in Microsoft developer.
+I need to pay life time registration fee for this.
+I don't code on all these machines I only need the tools!!!!
+I copied the tools out separately and they are only 106MB.
+So I can get the SID or the groups of the user.
+Please helppppp us out!!!
+We are an ISV who live in out of the United States.
+When we want to set app price Dev Center offers by US Dolloar for base price.
+I have certificate in user storage and app storage with same issuer and subject but with different EKU fields.
+I need to check if it's installed already or not and function checking it returned false because of this and I ended up installing new one every time.
+We don;t have any separate library for beacons.
+We expected this will be solved in windows 10  but not yet.
+Till now many clients for my company left out windows and they moved to iOS and Android.
+I have raised many questions related to this in community forum.
+I'm not sure you guys will have a look on this quickly or not.
+It is crazy that such basic functionality is not currently supported almost every device on the planet supports this other than windows phone.
+I am having difficulty testing an In App Purchase that is successful with Microsoft's servers yet somehow my app never receives that success message.
+We have made a private test app and we use real money to test IAP.
+This makes it hard to test when there is a $ cost to every test we perform.
+I would prefer to be able to test IAP hundreds of times without having to attempt to get a refund for thousands of dollars.
+Apple and Google are sooooo great!!
+I have a parent application that stores files within app space.
+Now when I wish to open a file the launcher asks me to choose a target application.
+I need support for ios the actual app has a lot of problems!! PLEASE!
+I've been trying to compile some stuff and the compiler is necessarily creating processes with enormous arguments.
+I have about 40 apps and around 8 are visible.
+After changing to fullscreen and back the position of the window is wrong and not to influence right?
+I just found that reading the property of System.Comment from a file doesn't work on Windows 10.
+I used StorageFile.Properties.GetDocumentPropertiesAsync() to read the properties of a file that has Comment but DocumentProperties.Comment is a empty string.
+Why this happen?!!!!!!!
+I developed the app bizview a Google Analytics client with the same features of Official Google Analytics app in the Android Store.
+This question is not because bizview is my own app the question is for all developers that works hard.
+I sincerely hope it makes a difference
+Looks like a bug.
+I'm using a Lumia 620 device with Windows 10 Mobile Build 10586.11.
+Could someone pleaseeeee have a look into this?
+It is frustrated for a devoloper then an app is'nt Show in any category and the app can only find per direct search by Name.
+I have released several versions of the app yet I cannot find the number of new users or the number of existing users who have upgraded to the new app version in the DEV center.
+I hope I can set my App price is $0.2 but I can't now.
+Currently there is no way to schedule recurring notifications using ScheduledToastNotification.
+But this is simply not an elegant solution...
+All Win32 Mac Linux have API's to do so but UWP doesn't.
+When you have a text editor with unsaved changes the standard behavior is to ask the user what to do before closing.
+This is not possible on UWP.
+Today I have run into a problem with ComboBox control.
+I have two rows and two columns.
+I populate the ComboBox with a few items and run the app.
+I maximize the window open the ComboBox popup (selection menu) minimize and I see the popup moved to the middle of the window.
+I think its a bug.
+I would prefer it return a boolean or an enum with the Fail reason.
+Some apps don't wooooooork in background well.
+Downloads may breaks when apps switched.
+Currently when the publisher name is chosen during signup a publisher id is derived from that.
+This publisher id is then used to name the app packages and the apps LocalStorage folder.
+If you are careless during signup you are stuck and can't change the publisher id and therefore that naming of your packages.
+Why can i NOT assign to-run-application for some BUTTON on locked screen...?
+Why can i NOT assign to-run-application for some SCREEN-REGION on locked screen...?
+Right now we can only inspect the server certificate after a request was done by using 'RequestMessage.TransportInformation'.
+But unfortunately this is application wide and so all certificates of all services of websites that might be called in the app must be included.
+The strange is that when we open the appbar it seems to be partially covered.
+I've observed it on bot - desktop and mobile UWP app.
+My App has no choice 18+ submit audit report feedback 18+ audit failure
+Example An app that allows users to select a time i.e; Tomorrow 1030 AM to do something.
+More I earn more chances they will leave and start publishing their own apps.
+I've two apps with same name one is in phone and the other one is in desktop.
+Now I created a universal app.
+I'm not able to associate the application with the phone build in the store(because the app name is not reserved to this there is no package name or package id for this in the store)
+I've developed application which targets Windows Phone 8.0.
+But when I retarget the app to Windows Pone 8.1 problem disappears.
+I can then enter the encoded image into the above mentioned decoder and it will decode correctly.
+I can then enter the encoded image into the above mentioned decoder and it will decode‚Ä¶ more
+I've got a Win8 app in the store.
+I want to beta test a win10 version of it.
+I then submit the win10 version and get some promo codes
+If you are professional developer redesign (your company loves this word) the formal business invoice!
+it would be very very appreciated!
+I have made an app when I search for it 10 apps pops up and my app isn't any of them.
+I just chatted to support they told me that it was because the name was too generic.

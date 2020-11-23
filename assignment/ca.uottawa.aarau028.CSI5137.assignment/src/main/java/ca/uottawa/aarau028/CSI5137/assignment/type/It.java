@@ -7,11 +7,12 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
+import org.apache.uima.jcas.cas.StringList;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Fri Nov 20 22:17:37 BRT 2020
+ * Updated by JCasGen Mon Nov 23 00:01:07 BRT 2020
  * XML source: C:/Users/17141908897/git/NLP-ML/assignment/ca.uottawa.aarau028.CSI5137.assignment/src/main/resources/desc/type/FirstTypeSystem.xml
  * @generated */
 public class It extends Annotation {
@@ -470,6 +471,72 @@ public class It extends Annotation {
     if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_dependencyToClosest == null)
       jcasType.jcas.throwFeatMissing("dependencyToClosest", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
     jcasType.ll_cas.ll_setStringValue(addr, ((It_Type)jcasType).casFeatCode_dependencyToClosest, v);}    
+   
+    
+  //*--------------*
+  //* Feature: followedByWeatherVerb
+
+  /** getter for followedByWeatherVerb - gets F19
+   * @generated
+   * @return value of the feature 
+   */
+  public boolean getFollowedByWeatherVerb() {
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByWeatherVerb == null)
+      jcasType.jcas.throwFeatMissing("followedByWeatherVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByWeatherVerb);}
+    
+  /** setter for followedByWeatherVerb - sets F19 
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setFollowedByWeatherVerb(boolean v) {
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByWeatherVerb == null)
+      jcasType.jcas.throwFeatMissing("followedByWeatherVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByWeatherVerb, v);}    
+   
+    
+  //*--------------*
+  //* Feature: FollowedByCognitiveVerb
+
+  /** getter for FollowedByCognitiveVerb - gets F20
+   * @generated
+   * @return value of the feature 
+   */
+  public boolean getFollowedByCognitiveVerb() {
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_FollowedByCognitiveVerb == null)
+      jcasType.jcas.throwFeatMissing("FollowedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_FollowedByCognitiveVerb);}
+    
+  /** setter for FollowedByCognitiveVerb - sets F20 
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setFollowedByCognitiveVerb(boolean v) {
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_FollowedByCognitiveVerb == null)
+      jcasType.jcas.throwFeatMissing("FollowedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_FollowedByCognitiveVerb, v);}    
+   
+    
+  //*--------------*
+  //* Feature: debug
+
+  /** getter for debug - gets debug feature
+   * @generated
+   * @return value of the feature 
+   */
+  public String getDebug() {
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_debug == null)
+      jcasType.jcas.throwFeatMissing("debug", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((It_Type)jcasType).casFeatCode_debug);}
+    
+  /** setter for debug - sets debug feature 
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setDebug(String v) {
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_debug == null)
+      jcasType.jcas.throwFeatMissing("debug", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    jcasType.ll_cas.ll_setStringValue(addr, ((It_Type)jcasType).casFeatCode_debug, v);}    
   }
 
     

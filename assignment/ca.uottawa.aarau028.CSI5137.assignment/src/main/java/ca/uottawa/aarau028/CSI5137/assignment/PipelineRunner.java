@@ -12,6 +12,8 @@ import org.uimafit.component.xwriter.CASDumpWriter;
 
 import ca.uottawa.aarau028.CSI5137.assignment.analyzer.AdjectivesAfterCounter;
 import ca.uottawa.aarau028.CSI5137.assignment.analyzer.DependencyWithClosestDetector;
+import ca.uottawa.aarau028.CSI5137.assignment.analyzer.FollowedByCognitiveVerbDetector;
+import ca.uottawa.aarau028.CSI5137.assignment.analyzer.FollowedByWeatherVerbDetector;
 import ca.uottawa.aarau028.CSI5137.assignment.analyzer.IngVerbAfterDetector;
 import ca.uottawa.aarau028.CSI5137.assignment.analyzer.ItDetector;
 import ca.uottawa.aarau028.CSI5137.assignment.analyzer.ItImmediatelyFollowedByAdjNounPhraseDetector;
@@ -37,8 +39,7 @@ public class PipelineRunner {
 	public static void main(String[] args) throws UIMAException, IOException {
 		CollectionReaderDescription entrada = CollectionReaderFactory.createReaderDescription(TextReader.class,
 				TextReader.PARAM_SOURCE_LOCATION, "input/document.txt", TextReader.PARAM_LANGUAGE, "en");
-		AnalysisEngineDescription segmenter = AnalysisEngineFactory
-				.createEngineDescription(OpenNlpSegmenter.class);
+		AnalysisEngineDescription segmenter = AnalysisEngineFactory.createEngineDescription(OpenNlpSegmenter.class);
 
 		AnalysisEngineDescription itDetector = AnalysisEngineFactory.createEngineDescription(ItDetector.class);
 
@@ -56,10 +57,8 @@ public class PipelineRunner {
 
 		AnalysisEngineDescription chunker = AnalysisEngineFactory.createEngineDescription(OpenNlpChunker.class);
 
-		AnalysisEngineDescription writer = AnalysisEngineFactory.createEngineDescription(CASDumpWriter.class
-//				,
-//				CASDumpWriter.PARAM_TYPE_PATTERNS, new String[] { "+|.*It" }
-		);
+		AnalysisEngineDescription writer = AnalysisEngineFactory.createEngineDescription(CASDumpWriter.class,
+				CASDumpWriter.PARAM_TYPE_PATTERNS, new String[] { "+|.*It" });
 
 //		AnalysisEngineDescription writer = AnalysisEngineFactory.createEngineDescription(FeatureMatrixWriter.class, FeatureMatrixWriter.PARAM_PATH, "output/");
 
@@ -88,10 +87,17 @@ public class PipelineRunner {
 		AnalysisEngineDescription dependencyWithClosestDetector = AnalysisEngineFactory
 				.createEngineDescription(DependencyWithClosestDetector.class);
 
+		AnalysisEngineDescription weatherverbdetector = AnalysisEngineFactory
+				.createEngineDescription(FollowedByWeatherVerbDetector.class);
+
+		AnalysisEngineDescription cognitiveverbdetector = AnalysisEngineFactory
+				.createEngineDescription(FollowedByCognitiveVerbDetector.class);
+
 		SimplePipeline.runPipeline(entrada, segmenter, itDetector, itPositioner, sentenceSizer, posTagger,
 				punctuationCounter, chunker, neighborNPs, immediatelyFollowsPP, neighborsPOS, followedByIng,
 				followedByPrep, adjectivesAfter, verbsBeforeAfter, npwaaDetector, tbnivCounter, tbiapCounter,
-				immediatelyFollowedByAdjNounPhraseDetector, parser, dependencyWithClosestDetector, writer);
+				immediatelyFollowedByAdjNounPhraseDetector, parser, dependencyWithClosestDetector, weatherverbdetector,
+				cognitiveverbdetector, writer);
 	}
 
 }

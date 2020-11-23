@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>SyntacticFeatures</name>
+  <description/>
+  <version>1.0</version>
+  <vendor/>
+  <types>
+    <typeDescription>
+      <name>lu.svv.saa.nlp.demo.type.SyntacticFeatures</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+      	<featureDescription>
+          <name>numPronouns</name>
+          <description>Syn1-number of pronouns in the sentence</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>hasFirstPersonPronouns</name>
+          <description>Syn2-if the sentence has a first-person pronoun</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>numNPs</name>
+          <description>Syn3-the number of noun phrases in the sentence</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>hasVerbToBeAdj</name>
+          <description>Syn4-if the sentence has a verb-to-be followed by an adjective</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>hasPassive</name>
+          <description>Syn5-if the sentence has passive voice</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

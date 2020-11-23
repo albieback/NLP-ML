@@ -1,0 +1,20 @@
+@relation OPINION-FACT
+
+@attribute numTokens numeric
+@attribute numPunctuation numeric
+@attribute hasTokensWithRepetitiveLetters numeric
+@attribute hasSentiment numeric
+@attribute hasNE numeric
+@attribute numPronouns numeric
+@attribute numNPs numeric
+@attribute hasFirstPersonPronouns numeric
+@attribute hasVerbToBeAdj numeric
+@attribute hasPassive numeric
+@attribute hasStativeVerb numeric
+@attribute isAnimateVerb numeric
+@attribute class {OPINION, FACT}
+
+@data
+9,1,0,0,1,2,3,1,0,0,1,0,EXAMPLE
+5,1,0,1,0,0,1,0,1,0,1,0,EXAMPLE
+15,2,1,0,1,2,4,0,0,0,1,1,EXAMPLE

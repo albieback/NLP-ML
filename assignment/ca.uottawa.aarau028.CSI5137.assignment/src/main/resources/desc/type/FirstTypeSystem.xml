@@ -403,6 +403,21 @@
           <rangeTypeName>uima.cas.String</rangeTypeName>
                   
         </featureDescription>
+      <featureDescription>
+          <name>followedByWeatherVerb</name>
+          <description>F19</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>FollowedByCognitiveVerb</name>
+          <description>F20</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>debug</name>
+          <description>debug feature</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
       </features>
                                         
     
