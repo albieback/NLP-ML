@@ -11,7 +11,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Mon Nov 23 00:01:07 BRT 2020
+ * Updated by JCasGen Mon Nov 23 04:11:48 BRT 2020
  * @generated */
 public class It_Type extends Annotation_Type {
   /** @generated */
@@ -479,26 +479,26 @@ public class It_Type extends Annotation_Type {
   
  
   /** @generated */
-  final Feature casFeat_FollowedByCognitiveVerb;
+  final Feature casFeat_followedByCognitiveVerb;
   /** @generated */
-  final int     casFeatCode_FollowedByCognitiveVerb;
+  final int     casFeatCode_followedByCognitiveVerb;
   /** @generated
    * @param addr low level Feature Structure reference
    * @return the feature value 
    */ 
   public boolean getFollowedByCognitiveVerb(int addr) {
-        if (featOkTst && casFeat_FollowedByCognitiveVerb == null)
-      jcas.throwFeatMissing("FollowedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
-    return ll_cas.ll_getBooleanValue(addr, casFeatCode_FollowedByCognitiveVerb);
+        if (featOkTst && casFeat_followedByCognitiveVerb == null)
+      jcas.throwFeatMissing("followedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    return ll_cas.ll_getBooleanValue(addr, casFeatCode_followedByCognitiveVerb);
   }
   /** @generated
    * @param addr low level Feature Structure reference
    * @param v value to set 
    */    
   public void setFollowedByCognitiveVerb(int addr, boolean v) {
-        if (featOkTst && casFeat_FollowedByCognitiveVerb == null)
-      jcas.throwFeatMissing("FollowedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
-    ll_cas.ll_setBooleanValue(addr, casFeatCode_FollowedByCognitiveVerb, v);}
+        if (featOkTst && casFeat_followedByCognitiveVerb == null)
+      jcas.throwFeatMissing("followedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    ll_cas.ll_setBooleanValue(addr, casFeatCode_followedByCognitiveVerb, v);}
     
   
  
@@ -614,8 +614,8 @@ public class It_Type extends Annotation_Type {
     casFeatCode_followedByWeatherVerb  = (null == casFeat_followedByWeatherVerb) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_followedByWeatherVerb).getCode();
 
  
-    casFeat_FollowedByCognitiveVerb = jcas.getRequiredFeatureDE(casType, "FollowedByCognitiveVerb", "uima.cas.Boolean", featOkTst);
-    casFeatCode_FollowedByCognitiveVerb  = (null == casFeat_FollowedByCognitiveVerb) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_FollowedByCognitiveVerb).getCode();
+    casFeat_followedByCognitiveVerb = jcas.getRequiredFeatureDE(casType, "followedByCognitiveVerb", "uima.cas.Boolean", featOkTst);
+    casFeatCode_followedByCognitiveVerb  = (null == casFeat_followedByCognitiveVerb) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_followedByCognitiveVerb).getCode();
 
  
     casFeat_debug = jcas.getRequiredFeatureDE(casType, "debug", "uima.cas.String", featOkTst);

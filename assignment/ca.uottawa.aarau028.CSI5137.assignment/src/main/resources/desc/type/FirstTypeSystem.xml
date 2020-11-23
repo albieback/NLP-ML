@@ -409,7 +409,7 @@
           <rangeTypeName>uima.cas.Boolean</rangeTypeName>
         </featureDescription>
       <featureDescription>
-          <name>FollowedByCognitiveVerb</name>
+          <name>followedByCognitiveVerb</name>
           <description>F20</description>
           <rangeTypeName>uima.cas.Boolean</rangeTypeName>
         </featureDescription>

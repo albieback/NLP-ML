@@ -12,7 +12,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Mon Nov 23 00:01:07 BRT 2020
+ * Updated by JCasGen Mon Nov 23 04:11:48 BRT 2020
  * XML source: C:/Users/17141908897/git/NLP-ML/assignment/ca.uottawa.aarau028.CSI5137.assignment/src/main/resources/desc/type/FirstTypeSystem.xml
  * @generated */
 public class It extends Annotation {
@@ -496,25 +496,25 @@ public class It extends Annotation {
    
     
   //*--------------*
-  //* Feature: FollowedByCognitiveVerb
+  //* Feature: followedByCognitiveVerb
 
-  /** getter for FollowedByCognitiveVerb - gets F20
+  /** getter for followedByCognitiveVerb - gets F20
    * @generated
    * @return value of the feature 
    */
   public boolean getFollowedByCognitiveVerb() {
-    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_FollowedByCognitiveVerb == null)
-      jcasType.jcas.throwFeatMissing("FollowedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
-    return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_FollowedByCognitiveVerb);}
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByCognitiveVerb == null)
+      jcasType.jcas.throwFeatMissing("followedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByCognitiveVerb);}
     
-  /** setter for FollowedByCognitiveVerb - sets F20 
+  /** setter for followedByCognitiveVerb - sets F20 
    * @generated
    * @param v value to set into the feature 
    */
   public void setFollowedByCognitiveVerb(boolean v) {
-    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_FollowedByCognitiveVerb == null)
-      jcasType.jcas.throwFeatMissing("FollowedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
-    jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_FollowedByCognitiveVerb, v);}    
+    if (It_Type.featOkTst && ((It_Type)jcasType).casFeat_followedByCognitiveVerb == null)
+      jcasType.jcas.throwFeatMissing("followedByCognitiveVerb", "ca.uottawa.aarau028.CSI5137.assignment.type.It");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((It_Type)jcasType).casFeatCode_followedByCognitiveVerb, v);}    
    
     
   //*--------------*
